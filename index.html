@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>final project</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo">個人作品集</a>
+    <ul class="nav-links">
+      <li><a href="#freshman">大一作品</a></li>
+      <li><a href="#sophomore">大二作品</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero-section">
+  <h1>歡迎來到周玟伃的大學作品集</h1>
+  <p>點擊任何一項作品的「查看作品詳情」，即可閱讀完整的設計理念與成果展示</p>
+</header>
+
+<main class="portfolio-container">
+
+  <section id="freshman" class="year-section">
+    <h2 class="year-title">大一作品總覽</h2>
+    <div class="project-grid">
+      
+      <div class="project-card">
+        <img src="https://i.postimg.cc/7ZxK1W9K/ying-mu-xie-qu-hua-mian-2026-06-09-222333.png" alt="程式設計" class="project-img manta-ray-img">
+        <div class="project-info">
+          <span class="semester-tag">大一上</span>
+          <h3>程式設計</h3>
+          <p>我的第一個個人網站期末專案，整合了基礎的網頁技術。</p>
+          <button class="project-btn" onclick="document.getElementById('modal-1').showModal()">查看作品詳情</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://i.postimg.cc/fRw87rCf/ying-mu-xie-qu-hua-mian-2026-06-04-222004.png" alt="個人名片設計" class="project-img manta-ray-img">
+        <div class="project-info">
+          <span class="semester-tag">大一下</span>
+          <h3>視覺傳達設計 - 名片</h3>
+          <p>結合個人風格與視覺美學設計的專屬名片，展現獨特的排版技巧與個人特色。</p>
+          <button class="project-btn" onclick="document.getElementById('modal-2').showModal()">查看作品詳情</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="card-video-container">
+          <iframe src="https://www.youtube.com/embed/Z3YNMa538vI" title="動畫概論影片" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="project-info">
+          <span class="semester-tag">大一下</span>
+          <h3>動畫概論</h3>
+          <p>練習基礎動畫原理，並繪製出完整的流暢手繪動畫成果。</p>
+          <button class="project-btn" onclick="document.getElementById('modal-3').showModal()">查看作品詳情</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="sophomore" class="year-section">
+    <h2 class="year-title">大二作品總覽</h2>
+    <div class="project-grid">
+      
+      <div class="project-card">
+        <div class="card-video-container">
+          <iframe src="https://www.youtube.com/embed/u2MDDEsnVRA" title="Unity 遊戲演示" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="project-info">
+          <span class="semester-tag">大二上</span>
+          <h3>多媒體程式設計 - Unity</h3>
+          <p>使用 Unity 引擎開發的互動遊戲專案，包含關卡設計與 C# 腳本撰寫。</p>
+          <button class="project-btn" onclick="document.getElementById('modal-4').showModal()">查看作品詳情</button>
+        </div>
+      </div>
+
+    <div class="project-card">
+  <div class="card-video-container">
+    <iframe src="https://www.youtube.com/embed/TYCXLn0BCX0" title="電腦動畫作品" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="project-info">
+    <span class="semester-tag">大二上</span>
+    <h3>電腦動畫</h3>
+    <p>運用進階動畫軟體製作的動態作品，包含運鏡、背景調整。</p>
+    <button class="project-btn" onclick="document.getElementById('modal-5').showModal()">查看作品詳情</button>
+  </div>
+</div>
+       
+      <div class="project-card">
+        <img src="https://i.postimg.cc/90Rp03Ww/tu-yi.png" alt="數位插畫" class="project-img">
+        <div class="project-info">
+          <span class="semester-tag">大二下</span>
+          <h3>數位插畫</h3>
+          <p>大二下學期創作的精選插畫系列成品，點擊可看完整作品集錦。</p>
+          <button class="project-btn" onclick="document.getElementById('modal-6').showModal()">查看作品詳情</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://i.postimg.cc/dVq5Rx66/ying-mu-xie-qu-hua-mian-2026-06-09-233531.png" alt="網頁設計" class="project-img">
+        <div class="project-info">
+          <span class="semester-tag">大二下</span>
+          <h3>網頁設計</h3>
+          <p>運用進階前端技術與響應式思維設計的全新個人綜合網站。</p>
+          <button class="project-btn" onclick="document.getElementById('modal-7').showModal()">查看作品詳情</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<dialog id="modal-1" class="info-modal">
+  <div class="modal-content">
+    <h2>程式設計 - 作品詳情</h2>
+    <hr>
+    <img src="https://i.postimg.cc/7ZxK1W9K/ying-mu-xie-qu-hua-mian-2026-06-09-222333.png" alt="大圖展示" class="modal-main-img ">
+    <h3>設計理念與心得</h3>
+    <p>這是我的大一期末網站成果，整合了基礎的網頁前端技術（HTML/CSS）。點擊下方綠色按鈕可以直接連過去看我的網站喔！</p>
+    <div class="modal-actions">
+      <a href="https://yjbg91313.github.io/final/" target="_blank" class="action-btn link-btn">前往瀏覽個人網站</a>
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-1').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="modal-2" class="info-modal">
+  <div class="modal-content">
+    <h2>視覺傳達設計 - 個人名片設計</h2>
+    <hr>
+    <img src="https://i.postimg.cc/fRw87rCf/ying-mu-xie-qu-hua-mian-2026-06-04-222004.png" alt="名片大圖" class="modal-main-img ">
+    <h3>設計理念</h3>
+    <p>
+      我在設計這張名片時，選用了鮭魚作為主要元素，正面呈現出魚的造型，可以讓人一眼就能聯想到「魚」這個主題，而在背面的部分則將魚的眼睛改成了自己親手繪製的個人畫像，並以代表我個人代表色的相近色作為配色，強調專屬個人風格。
+為了讓大家能清楚知道我的名字，我將名字的字級設為 24，並搭配我另外下載的 MS 字型，這款字體給人一種踏實穩重又溫柔的印象，與我想傳達的個人形象相契合。在個人資訊方面，我放上了電話號碼、電子郵件和 Instagram 帳號，並將字級設為 8，是老師建議中在可閱讀範圍內的最小值，既清晰又不佔版面。
+此外，為了讓接收名片的人能快速理解這些資訊分別屬於哪些通訊或社群平台，我特別加入了各對應程式的圖示，提升整體的辨識度與便利性。
+透過這張名片的設計，我希望能在第一眼就留下深刻印象，同時傳遞出我的個性與專業感，成為溝通自我風格與價值的橋樑。</p>
+    <div class="modal-actions">
+      <!-- 這裡成功幫你加入了前往詳細 PPT 的綠色美觀按鈕 -->
+      <a href="https://canva.link/8g9pkk7ytfkvqf8" target="_blank" class="action-btn link-btn">查看詳細名片 PPT 簡報</a>
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-2').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+   
+
+<dialog id="modal-3" class="info-modal">
+  <div class="modal-content">
+    <h2>動畫概論 - 影片展示</h2>
+    <hr>
+    <div class="modal-video-container">
+      <iframe src="https://www.youtube.com/embed/Z3YNMa538vI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h3>動畫腳本與說明</h3>
+    <p>這段動畫描述了一個關於我日常生活中會發生的故事。就是在平凡無奇的日常中手機突然跳出直播通知，於是我就非常開心得趕快點直播進去看，在製作過程中，我學習了動態分鏡、人物角色的手部動作構圖以及影格率的調整，點擊上方影片即可直接播放欣賞。</p>
+    <div class="modal-actions">
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-3').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="modal-4" class="info-modal">
+  <div class="modal-content">
+    <h2>多媒體程式設計 - Unity 遊戲專案</h2>
+    <hr>
+    <div class="modal-video-container">
+      <iframe src="https://www.youtube.com/embed/u2MDDEsnVRA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h3>遊戲企劃與開發細節</h3>
+    <p>本作品是一款使用 Unity 開發的互動遊戲。在專案中使用了unity與visual studio code程式碼編寫、碰撞偵測以及 UI 介面的串接。可以點擊下方綠色按鈕直接進入雲端下載遊戲檔案遊玩！</p>
+    <div class="modal-actions">
+      <a href="https://drive.google.com/file/d/1phK5jjXAhCnFoYi7TZWFP_1jLC4qBz-o/view?usp=sharing" target="_blank" class="action-btn link-btn">下載玩遊戲</a>
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-4').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="modal-5" class="info-modal">
+  <div class="modal-content">
+    <h2>電腦動畫 - 成果作品</h2>
+    <hr>
+    <div class="modal-video-container">
+      <iframe src="https://www.youtube.com/embed/TYCXLn0BCX0" title="1133827期末作業.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h3>動畫製作說明</h3>
+    <p>此電腦動畫作品使用的是Tahoma 2D軟體製作，其中我學習到了繪畫的技巧、運鏡轉場以及色彩的搭配合影格針的調整及時間的分配。</p>
+    <div class="modal-actions">
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-5').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+<dialog id="modal-6" class="info-modal">
+  <div class="modal-content">
+    <h2>數位插畫精選 - 作品集錦</h2>
+    <hr>
+    <h3>精選成品展示 </h3>
+    <div class="modal-gallery">
+      <img src="https://i.postimg.cc/90Rp03Ww/tu-yi.png" alt="插畫1">
+      <img src="https://i.postimg.cc/nhY6pmSh/tu-erfinal.png" alt="插畫2">
+      <img src="https://i.postimg.cc/fLFPBfyd/shui-jing-qiu1.png" alt="插畫3">
+      <img src="https://i.postimg.cc/5N8rSvVN/qi-zhong-cha-hua-tou-zou-xing-xing-de-nan-hai1.png" alt="插畫4">
+      <img src="https://i.postimg.cc/htg5yj4q/qi-zhong-cha-hua-tou-zou-xing-xing-de-nan-hai2.png" alt="插畫5">
+      <img src="https://i.postimg.cc/wjHGfvxY/qi-zhong-cha-hua-tou-zou-xing-xing-de-nan-hai3.png" alt="插畫6">
+       <img src="https://i.postimg.cc/Bb9gjYt7/jiao-se-she-dingfinal.png" alt="插畫7">
+       <img src=" https://i.postimg.cc/sf7mkr0m/ren-wu-she-ding-tu.png" alt="插畫8">
+    </div>
+    <p>這裡收集了大二下學期的數位插畫課所有成品。創作主題涵蓋了不同風格的插畫創作與不同的構圖技巧及色彩搭配還有腳色設定圖可以更清楚要繪畫的步驟及架構。</p>
+    <div class="modal-actions">
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-6').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="modal-7" class="info-modal">
+  <div class="modal-content">
+    <h2>網頁設計 - 響應式網頁專案</h2>
+    <hr>
+    <img src="https://i.postimg.cc/dVq5Rx66/ying-mu-xie-qu-hua-mian-2026-06-09-233531.png" alt="網頁設計大圖" class="modal-main-img">
+    <h3>網頁技術與特點</h3>
+    <p>大二下的網頁設計作品，相較於大一，運用了更豐富的 CSS Flexbox 與 Grid 佈局技術，達成了完美顯示的 RWD 響應式網頁。</p>
+    <div class="modal-actions">
+      <a href="https://yjbg91313.github.io/business-card1/" target="_blank" class="action-btn link-btn">前往瀏覽網頁作品</a>
+      <button class="action-btn close-btn" onclick="document.getElementById('modal-7').close()">關閉視窗</button>
+    </div>
+  </div>
+</dialog>
+
+<footer class="footer">
+  <p>© 2026 我的大學作品集.</p>
+</footer>
+<dialog id="illustration-lightbox" style="border:none; background:transparent; padding:0; width:100vw; height:100vh; max-width:100%; max-height:100%; margin:0; justify-content:center; align-items:center; display:none;">
+  <div style="position:relative; width:100%; height:100%; display:flex; justify-content:center; align-items:center;">
+    <div id="lightbox-bg" style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.75); backdrop-filter:blur(8px); cursor:zoom-out;"></div>
+    <img id="lightbox-img" src="" alt="放大檢視" style="position:relative; max-width:90%; max-height:85%; object-fit:contain; border-radius:8px; box-shadow:0 10px 40px rgba(0,0,0,0.5); transform:scale(0.95); transition:transform 0.25s ease-out; pointer-events:auto;">
+    <button id="lightbox-close" style="position:absolute; top:20px; right:20px; background:rgba(255,255,255,0.2); color:white; border:none; width:45px; height:45px; border-radius:50%; font-size:24px; cursor:pointer; display:flex; justify-content:center; align-items:center; transition:background 0.2s; backdrop-filter:blur(4px); font-family:sans-serif;">✕</button>
+  </div>
+</dialog>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const lightbox = document.getElementById('illustration-lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxBg = document.getElementById('lightbox-bg');
+
+    // 1. 自動為原有的插畫網格圖片加上「小手掌滑鼠指針」與懸停微放大，提示使用者這可以點擊
+    const galleryStyles = document.createElement('style');
+    galleryStyles.innerHTML = `
+      .modal-gallery img {
+        cursor: zoom-in !important;
+        transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+      }
+      .modal-gallery img:hover {
+        transform: scale(1.05) !important;
+        box-shadow: 0 5px 15px rgba(166, 137, 182, 0.4) !important;
+        z-index: 10;
+      }
+      #lightbox-close:hover {
+        background: rgba(237, 76, 60, 0.8) !important; /* 懸停時變精緻紅色 */
+      }
+    `;
+    document.head.appendChild(galleryStyles);
+
+    // 2. 監聽數位插畫彈窗內的所有圖片點擊事件
+    document.addEventListener('click', (e) => {
+      // 判斷點擊的是否為 modal-6（數位插畫）內部的圖片
+      if (e.target.closest('.modal-gallery') && e.target.tagName === 'IMG') {
+        const clickedSrc = e.target.src;
+        
+        // 將圖片網址塞入放大層並顯示
+        lightboxImg.src = clickedSrc;
+        lightbox.style.display = 'flex';
+        lightbox.showModal();
+        
+        // 觸發微小的放大登場動畫
+        setTimeout(() => {
+          lightboxImg.style.transform = 'scale(1)';
+        }, 10);
+      }
+    });
+
+    // 3. 關閉放大檢視的函式
+    function closeLightbox() {
+      lightboxImg.style.transform = 'scale(0.95)';
+      setTimeout(() => {
+        lightbox.close();
+        lightbox.style.display = 'none';
+      }, 150);
+    }
+
+    // 4. 綁定關閉事件（點按鈕、點背景、按 ESC 鍵）
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightboxBg.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('cancel', (e) => {
+      e.preventDefault();
+      closeLightbox();
+    });
+  });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    
+    // 功能一：滾動網頁時，頂端導覽列切換高級毛玻璃與陰影
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+      }
+    });
+
+    // 功能二：JS 滾動偵測——作品卡片漸顯登場 (Scroll Reveal)
+    const cards = document.querySelectorAll('.project-card');
+    
+    // 設定偵測條件：當卡片露出畫面 10% 時觸發
+    const observerOptions = {
+      root: null,
+      threshold: 0.1,
+      rootMargin: "0px 0px -30px 0px"
+    };
+
+    const cardObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // 讓卡片逐一加上登場類別
+          entry.target.classList.add('card-visible');
+          // 登場後就解除監聽，優化網頁效能
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    cards.forEach(card => {
+      cardObserver.observe(card);
+    });
+  });
+</script>
+    
+  </body>
+  
+</html>
